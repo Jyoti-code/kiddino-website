@@ -47,13 +47,13 @@ export default function Category() {
           <Slider {...sliderSettings}>
             <div className="category-style2">
               <div className="category-img">
-                <a href="className-details.html">
+                <a href="*">
                   <img src="assets/img/category/cat-1-1.jpg" alt="category" />
                 </a>
               </div>
               <div className="category-content">
                 <h3 className="category-title">
-                  <a href="className-details.html" className="text-inherit">
+                  <a href="*" className="text-inherit">
                     Babbies
                   </a>
                 </h3>
@@ -62,13 +62,13 @@ export default function Category() {
             </div>
             <div className="category-style2">
               <div className="category-img">
-                <a href="className-details.html">
+                <a href="*">
                   <img src="assets/img/category/cat-1-2.jpg" alt="category" />
                 </a>
               </div>
               <div className="category-content">
                 <h3 className="category-title">
-                  <a href="className-details.html" className="text-inherit">
+                  <a href="*" className="text-inherit">
                     Toddlers
                   </a>
                 </h3>
@@ -77,13 +77,13 @@ export default function Category() {
             </div>
             <div className="category-style2">
               <div className="category-img">
-                <a href="className-details.html">
+                <a href="*">
                   <img src="assets/img/category/cat-1-3.jpg" alt="category" />
                 </a>
               </div>
               <div className="category-content">
                 <h3 className="category-title">
-                  <a href="className-details.html" className="text-inherit">
+                  <a href="*" className="text-inherit">
                     Preschool
                   </a>
                 </h3>
@@ -92,13 +92,13 @@ export default function Category() {
             </div>
             <div className="category-style2">
               <div className="category-img">
-                <a href="className-details.html">
+                <a href="*">
                   <img src="assets/img/category/cat-1-4.jpg" alt="category" />
                 </a>
               </div>
               <div className="category-content">
                 <h3 className="category-title">
-                  <a href="className-details.html" className="text-inherit">
+                  <a href="*" className="text-inherit">
                     Younger
                   </a>
                 </h3>

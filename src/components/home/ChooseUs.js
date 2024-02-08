@@ -25,7 +25,7 @@ export default function ChooseUs() {
                             <div className="vs-circle"></div>
                             <img src="assets/img/choose/choose-1-1.png" alt=""/>
                         </div>
-                        <h3 className="feature-title h5"><a href="service-details.html" className="text-inherit">Learn And Play</a></h3>
+                        <h3 className="feature-title h5"><a href="*" className="text-inherit">Learn And Play</a></h3>
                         <p className="feature-text">Our goal is to carefully educate and develop children in a fun way.</p>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ export default function ChooseUs() {
                             <div className="vs-circle"></div>
                             <img src="assets/img/choose/choose-1-2.png" alt=""/>
                         </div>
-                        <h3 className="feature-title h5"><a href="service-details.html" className="text-inherit">Great Teachers</a></h3>
+                        <h3 className="feature-title h5"><a href="*" className="text-inherit">Great Teachers</a></h3>
                         <p className="feature-text">Our goal is to carefully educate and develop children in a fun way.</p>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ export default function ChooseUs() {
                             <div className="vs-circle"></div>
                             <img src="assets/img/choose/choose-1-3.png" alt=""/>
                         </div>
-                        <h3 className="feature-title h5"><a href="service-details.html" className="text-inherit">Family Environment</a></h3>
+                        <h3 className="feature-title h5"><a href="*" className="text-inherit">Family Environment</a></h3>
                         <p className="feature-text">Our goal is to carefully educate and develop children in a fun way.</p>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ export default function ChooseUs() {
                             <div className="vs-circle"></div>
                             <img src="assets/img/choose/choose-1-4.png" alt=""/>
                         </div>
-                        <h3 className="feature-title h5"><a href="service-details.html" className="text-inherit">Excellent Programmes</a></h3>
+                        <h3 className="feature-title h5"><a href="*" className="text-inherit">Excellent Programmes</a></h3>
                         <p className="feature-text">Our goal is to carefully educate and develop children in a fun way.</p>
                     </div>
                 </div>
@@ -77,10 +77,10 @@ export default function ChooseUs() {
                 <div className="col-lg-6">
                     <div className="team-style1">
                         <div className="team-img">
-                            <a href="team-details.html"><img src="assets/img/team/t-1-1.jpg" alt="team"/></a>
+                            <a href="*"><img src="assets/img/team/t-1-1.jpg" alt="team"/></a>
                         </div>
                         <div className="team-content">
-                            <h3 className="team-name h2"><a href="team-details.html" className="text-inherit">Katie Willmore</a></h3>
+                            <h3 className="team-name h2"><a href="*" className="text-inherit">Katie Willmore</a></h3>
                             <p className="team-degi">Principal and Manager</p>
                             <a href="tel:+4402076897888" className="team-number">+44 (0) 207 689 7888</a>
                             <div className="vs-social">
@@ -92,14 +92,14 @@ export default function ChooseUs() {
                 </div>
                 <div className="col-sm-6 col-lg-3">
                     <div className="team-style2">
-                        <div className="team-img"><a href="team-details.html"><img src="assets/img/team/t-1-2.jpg" alt="team"/></a></div>
-                        <h3 className="team-name"><a className="text-inherit" href="team-details.html">Jessica Levis</a></h3>
+                        <div className="team-img"><a href="*"><img src="assets/img/team/t-1-2.jpg" alt="team"/></a></div>
+                        <h3 className="team-name"><a className="text-inherit" href="*">Jessica Levis</a></h3>
                     </div>
                 </div>
                 <div className="col-sm-6 col-lg-3">
                     <div className="team-style2">
-                        <div className="team-img"><a href="team-details.html"><img src="assets/img/team/t-1-3.jpg" alt="team"/></a></div>
-                        <h3 className="team-name"><a className="text-inherit" href="team-details.html">Nomina Leione</a></h3>
+                        <div className="team-img"><a href="*"><img src="assets/img/team/t-1-3.jpg" alt="team"/></a></div>
+                        <h3 className="team-name"><a className="text-inherit" href="*">Nomina Leione</a></h3>
                     </div>
                 </div>
             </div>
@@ -112,7 +112,7 @@ export default function ChooseUs() {
                 </div>
                 <div className="col-lg-auto">
                     <div className="sec-btns">
-                        <a href="contact.html" className="vs-btn">Start Registration</a>
+                        <a href="*" className="vs-btn">Start Registration</a>
                     </div>
                 </div>
             </div>

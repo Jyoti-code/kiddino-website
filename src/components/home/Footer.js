@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <>
             <footer className="footer-wrapper footer-layout3">
-                <div className="shape-mockup jump-reverse d-none d-xxxl-block" data-right="0" data-top="0"><img src="assets/img/shape/f-s-3-1.png" alt="" /></div>
+                <div className="shape-mockup jump-reverse d-none d-xxxl-block" data-right="0" data-top="0"><img src="assets/img/shape/f-s-3-1.png" alt=""/></div>
                 <div className="shape-mockup jump d-none d-xxxl-block" data-left="0" data-top="-2%"><img src="assets/img/shape/f-s-3-2.png" alt="" /></div>
                 <div className="container" style={{marginTop:'40px'}}>
                   

@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 export default function SliderMenu() {
+    useEffect(() => {
+    AOS.init({
+      duration: 3000, 
+      once: false, 
+    });
+  }, []);
+
   const sliderSettings = {
     dots: false,
     infinite: true,
@@ -33,22 +42,23 @@ export default function SliderMenu() {
 
   return (
     <>
-      <section className="vs-hero-wrapper">
-        <div className='vs-hero-carousel'  data-height="1050" data-container="1900" data-slidertype="responsive">
-        <div className="ls-inner ls-slide" style={{ backgroundColor: 'rgb(52 23 124)', height: '100vh' }}>
+    <div className='row'>
+<div className="ls-inner" style={{ backgroundColor: 'rgb(52 23 124)', height: 'auto' }}>
           <div className='col-md-12'>
             <Slider {...sliderSettings}>
               <div className="category-style2">
-                <div className='row'>
-                  <div className='col-md-6'>
-                    <div className="category-text" style={{ textAlign: 'left', marginTop: '180px', marginLeft: '300px' }}>
-                      <h2 style={{ color: 'white', fontSize: '89px' }}>A Happy School</h2>
-                      <p style={{ color: 'white', fontSize: '13px', marginLeft: '15px', fontFamily: 'Jost, sans-serif' }}>At Study Hall teachers are called Aunty. This is because we believe that children. </p>
+                <div className='row d-flex flex-row'>
+                  <div className='col-md-6 flex-column'>
+                    <div data-aos="fade-right">
+                    <div className="category-text" style={{ textAlign: 'center', marginTop: '35%', }}>
+                      <h2 style={{ color: 'white', fontSize: '89px' }}>A Happy<br/> School</h2>
+                      <p style={{ color: 'white', fontSize: '13px', fontFamily: 'Jost, sans-serif' }}>At Study Hall teachers are called Aunty.<br/> This is because we believe that children. </p>
+                    </div>
                     </div>
                   </div>
-                  <div className='col-md-6'>
-                    <div className="category-img" style={{ textAlign: 'center', marginTop: '180px', width: '393px', height: '413px', borderRadius: '0px' }}>
-                      <a href="className-details.html">
+                  <div className='col-md-6 flex-column'>
+                    <div className="category-img" style={{ textAlign: 'center', marginTop: '35%', width: '393px', height: '413px', borderRadius: '0px' }}>
+                      <a href="*">
                         <img
                           src="assets/img/hero/hero-2-1.png"
                           alt="A Happy School"
@@ -66,14 +76,16 @@ export default function SliderMenu() {
               <div className="category-style2">
                 <div className='row'>
                   <div className='col-md-6'>
-                    <div className="category-text" style={{ textAlign: 'left', marginTop: '180px', marginLeft: '300px' }}>
-                      <h2 style={{ color: 'white', fontSize: '79px' }}>An Inclusive School</h2>
-                      <p style={{ color: 'white', fontSize: '13px', marginLeft: '15px', fontFamily: 'Jost, sans-serif' }}>Creating an inclusive school environment is the school’s first priority.</p>
+                    <div data-aos="fade-right">
+                    <div className="category-text" style={{ textAlign: 'center', marginTop: '35%'}}>
+                      <h2 style={{ color: 'white', fontSize: '79px' }}>An Inclusive<br/> School</h2>
+                      <p style={{ color: 'white', fontSize: '13px', fontFamily: 'Jost, sans-serif' }}>Creating an inclusive school environment is<br/> the school’s first priority.</p>
+                    </div>
                     </div>
                   </div>
                   <div className='col-md-6'>
-                    <div className="category-img" style={{ marginTop: '180px', width: '393px', height: '413px', borderRadius: '0px' }}>
-                      <a href="className-details.html">
+                    <div className="category-img" style={{ marginTop: '35%', width: '393px', height: '413px', borderRadius: '0px' }}>
+                      <a href="*">
                         <img
                           src="assets/img/hero/hero-2-2.png"
                           alt="An Inclusive School"
@@ -87,11 +99,12 @@ export default function SliderMenu() {
               {/* Repeat similar structure for the remaining slides */}
 
             </Slider>
-            <img src='assets/img/hero/h-s-2-2.png' alt='Additional Decorative' style={{ marginTop: '-50px' }} />
+            <img src='assets/img/hero/h-s-2-2.png' alt='Additional Decorative' style={{width:'100vw'}} />
           </div>
         </div>
-        </div>
-      </section>
+    </div>
+      
+        
     </>
   );
 }

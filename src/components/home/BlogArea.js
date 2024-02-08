@@ -22,11 +22,11 @@ export default function BlogArea() {
                             <img src="assets/img/blog/blog-1-1.jpeg" alt="Blog Thumbnail" className="w-100"/>
                         </div>
                         <div className="blog-content">
-                            <a href="blog.html" className="blog-date"><i className="fal fa-calendar-alt"></i>12 Dec 2023</a>
-                            <h3 className="blog-title h5"><a href="blog-details.html">Study Hall’s Concert (2023)</a></h3>
+                            <a href="*" className="blog-date"><i className="fal fa-calendar-alt"></i>12 Dec 2023</a>
+                            <h3 className="blog-title h5"><a href="*">Study Hall’s Concert (2023)</a></h3>
                             <p className="blog-text">Once again it was splendid lights, no camera and perfect action time for Study Hallians!</p>
                         </div>
-                        <a href="blog-details.html" className="blog-btn">Read More<i className="far fa-angle-right"></i></a>
+                        <a href="*" className="blog-btn">Read More<i className="far fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -36,11 +36,11 @@ export default function BlogArea() {
                             <img src="assets/img/blog/blog-1-2.jpeg" alt="Blog Thumbnail" className="w-100"/>
                         </div>
                         <div className="blog-content">
-                            <a href="blog.html" className="blog-date"><i className="fal fa-calendar-alt"></i>16 Dec 2023</a>
-                            <h3 className="blog-title h5"><a href="blog-details.html">Annual Field Day</a></h3>
+                            <a href="*" className="blog-date"><i className="fal fa-calendar-alt"></i>16 Dec 2023</a>
+                            <h3 className="blog-title h5"><a href="*">Annual Field Day</a></h3>
                             <p className="blog-text">The children of Study Hall Junior School enthralled the audience on the 16th of December</p>
                         </div>
-                        <a href="blog-details.html" className="blog-btn">Read More<i className="far fa-angle-right"></i></a>
+                        <a href="*" className="blog-btn">Read More<i className="far fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -50,11 +50,11 @@ export default function BlogArea() {
                             <img src="assets/img/blog/blog-1-3.jpeg" alt="Blog Thumbnail" className="w-100"/>
                         </div>
                         <div className="blog-content">
-                            <a href="blog.html" className="blog-date"><i className="fal fa-calendar-alt"></i>25 Dec 2023</a>
-                            <h3 className="blog-title h5"><a href="blog-details.html">Tis the Season to be Jolly</a></h3>
+                            <a href="*" className="blog-date"><i className="fal fa-calendar-alt"></i>25 Dec 2023</a>
+                            <h3 className="blog-title h5"><a href="*">Tis the Season to be Jolly</a></h3>
                             <p className="blog-text">Christmas was celebrated by the children of Study Hall Junior School</p>
                         </div>
-                        <a href="blog-details.html" className="blog-btn">Read More<i className="far fa-angle-right"></i></a>
+                        <a href="*" className="blog-btn">Read More<i className="far fa-angle-right"></i></a>
                     </div>
                 </div>
 

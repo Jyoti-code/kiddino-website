@@ -19,7 +19,7 @@ export default function Founder() {
                         <div className="team-style1">
                             <div className="team-img">
 
-                                <a href="team-details.html"><video width="600" controls>
+                                <a href="*"><video width="600" controls>
                                     <source src="assets/img/studyhall-ceo.mp4" type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video></a>
@@ -29,8 +29,8 @@ export default function Founder() {
                     </div>
                     <div className="col-md-4">
                         <div className="team-style2">
-                            <div className="team-img"><a href="team-details.html"><img src="assets/img/team/t-1-2.jpg" alt="team" /></a></div>
-                            <h3 className="team-name"><a className="text-inherit" href="team-details.html">Dr. Urvashi Sahni</a></h3>
+                            <div className="team-img"><a href="*"><img src="assets/img/team/t-1-2.jpg" alt="team" /></a></div>
+                            <h3 className="team-name"><a className="text-inherit" href="*">Dr. Urvashi Sahni</a></h3>
 
                         </div>
                         <p>Founder, Study Hall Educational Foundation</p>
@@ -46,7 +46,7 @@ export default function Founder() {
                     </div>
                     <div className="col-lg-auto">
                         <div className="sec-btns mb-0">
-                            <a href="contact.html" className="vs-btn">Start Registration</a>
+                            <a href="*" className="vs-btn">Start Registration</a>
                         </div>
                     </div>
                 </div>

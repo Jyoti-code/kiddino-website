@@ -24,7 +24,7 @@ export default function Header() {
                     </div>
                  </div>
                  <div className="col-md-3 d-none d-xl-block">
-                        <a href="contact.html" className="vs-btn sideMenuToggler">Apply Today</a>
+                        <a href="*" className="vs-btn sideMenuToggler">Apply Today</a>
                     </div>
             </div>
         </div>
@@ -62,28 +62,28 @@ export default function Header() {
                                                 <li><Link to="/curriculum">Curriculum</Link></li>
                                                 <li><Link to="/onlineadmissionquery">Online Admission Query</Link>
                                                 </li>
-                                                <li><a href="class-details.html">School Uniform</a></li>
-                                                <li><a href="class-details.html">TC (Transfer Certificate)</a></li>
-                                                <li><a href="class-details.html">CBSE Compliance</a></li>
+                                                <li><a href="*">School Uniform</a></li>
+                                                <li><a href="*">TC (Transfer Certificate)</a></li>
+                                                <li><a href="*">CBSE Compliance</a></li>
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <a href="blog.html">Academics
+                                            <a href="*">Academics
                                             </a>
                                             <ul className="sub-menu">
-                                                <li><a href="blog.html">Curriculum</a></li>
-                                                <li><a href="blog-details.html">Syllabus </a></li>
-                                                <li><a href="blog-details.html">Academic Calendar</a></li>
-                                                <li><a href="blog-details.html">Co-Curricular Activities</a></li>
-                                                <li><a href="blog-details.html">Academic Calendar</a></li>
-                                                <li><a href="blog-details.html">Examinations</a></li>
-                                                <li><a href="blog-details.html">Counselling</a></li>
-                                                <li><a href="blog-details.html">Exchange Programs</a></li>
-                                                <li><a href="blog-details.html">Infrastructure</a></li>
-                                                <li><a href="blog-details.html">Teacher's Forum</a></li>
-                                                <li><a href="blog-details.html">Teachers Training</a></li>
-                                                <li><a href="blog-details.html">Downloads</a></li>
-                                                <li><a href="blog-details.html">Circulars</a></li>
+                                                <li><a href="*">Curriculum</a></li>
+                                                <li><a href="*">Syllabus </a></li>
+                                                <li><a href="*">Academic Calendar</a></li>
+                                                <li><a href="*">Co-Curricular Activities</a></li>
+                                                <li><a href="*">Academic Calendar</a></li>
+                                                <li><a href="*">Examinations</a></li>
+                                                <li><a href="*">Counselling</a></li>
+                                                <li><a href="*">Exchange Programs</a></li>
+                                                <li><a href="*">Infrastructure</a></li>
+                                                <li><a href="*">Teacher's Forum</a></li>
+                                                <li><a href="*">Teachers Training</a></li>
+                                                <li><a href="*">Downloads</a></li>
+                                                <li><a href="*">Circulars</a></li>
 
                                             </ul>
                                         </li>
@@ -104,16 +104,16 @@ export default function Header() {
 
 
                                                 <li><a href="*">Alumni Stories</a></li>
-                                                <li><a href="index-2.html">Alumni Registration</a></li>
+                                                <li><a href="*">Alumni Registration</a></li>
                                                 
 
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Blogs</a>
+                                            <a href="*">Blogs</a>
                                         </li>
                                          <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a href="*">Contact</a>
                                         </li>
                                     </ul>
                                 </nav>
