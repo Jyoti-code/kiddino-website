@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import { Link } from 'react-router-dom'
+import { Dropdown } from 'react-bootstrap';
 
 const Dashboard = () => {
         const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -136,6 +137,69 @@ const Dashboard = () => {
                     </div>
                 </div>
             </header>
+
+             <div className={`vs-menu-wrapper ${isSidebarOpen ? 'open' : ''}`}>
+            <div className="vs-menu-area text-center">
+                <button className="vs-menu-toggle" onClick={toggleSidebar}>
+                    <i className={isSidebarOpen ? "fal fa-times" : "fal fa-bars"}></i>
+                </button>
+                <div className="mobile-logo">
+                    <a href="/"><img src="assets/img/logo.svg" alt="Kiddino" /></a>
+                </div>
+                <div className="vs-mobile-menu">
+                    <ul>
+                        <li className="menu-item-has-children">
+                            <a href="*">Demo</a>
+                            <ul className="sub-menu">
+                                <li><a href="*">Demo Style 1</a></li>
+                                <li><a href="*">Demo Style 2</a></li>
+                                <li><a href="*">Demo Style 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="*">About Us</a></li>
+                        <li className="menu-item-has-children">
+                            <a href="*">Classes</a>
+                            <ul className="sub-menu">
+                                <li><a href="*">Class Style 1</a></li>
+                                <li><a href="*">Class Style 2</a></li>
+                                <li><a href="*">Class Details</a></li>
+                            </ul>
+                        </li>
+                        <li className="menu-item-has-children">
+                            <a href="*">Blog</a>
+                            <ul className="sub-menu">
+                                <li><a href="*">Blog</a></li>
+                                <li><a href="*">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li className="menu-item-has-children">
+                            <Dropdown>
+                                <Dropdown.Toggle variant="link" id="pagesDropdown">
+                                    Pages
+                                </Dropdown.Toggle>
+                                <Dropdown.Menu>
+                                    <Dropdown.Item href="*">Service</Dropdown.Item>
+                                    <Dropdown.Item href="*">Service Details</Dropdown.Item>
+                                    <Dropdown.Item href="*">Team</Dropdown.Item>
+                                    <Dropdown.Item href="*">Team Details</Dropdown.Item>
+                                    <Dropdown.Item href="*">Event Details</Dropdown.Item>
+                                    <Dropdown.Item href="*">Gallery</Dropdown.Item>
+                                    <Dropdown.Item href="*">Price Plan</Dropdown.Item>
+                                    <Dropdown.Item href="*">FAQ</Dropdown.Item>
+                                    <Dropdown.Item href="*">Shop</Dropdown.Item>
+                                    <Dropdown.Item href="*">Shop Details</Dropdown.Item>
+                                    <Dropdown.Item href="*">Shopping Cart</Dropdown.Item>
+                                    <Dropdown.Item href="*">Checkout</Dropdown.Item>
+                                    <Dropdown.Item href="*">Registration</Dropdown.Item>
+                                    <Dropdown.Item href="*">Error Page</Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
+                        </li>
+                        <li><a href="*">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         </>
     );
 };

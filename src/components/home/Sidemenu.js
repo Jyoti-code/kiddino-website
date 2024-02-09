@@ -50,7 +50,7 @@ export default function Sidemenu() {
                                     <li><a href="*">Service Details</a></li>
                                     <li><a href="*">Team</a></li>
                                     <li><a href="*">Team Details</a></li>
-                                    <li><a href="*l">Event Details</a></li>
+                                    <li><a href="*">Event Details</a></li>
                                     <li><a href="*">Gallery</a></li>
                                     <li><a href="*">Price Plan</a></li>
                                     <li><a href="*">FAQ</a></li>
@@ -62,7 +62,7 @@ export default function Sidemenu() {
                                     <li><a href="*">Error Page</a></li>
                                 </ul>
                             </li>
-                            <li><a href="*l">Contact Us</a></li>
+                            <li><a href="*">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

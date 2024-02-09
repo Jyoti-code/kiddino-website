@@ -108,7 +108,7 @@ export default function Category() {
           </Slider>
         </div>
       </section>
-      <div className="vs-wave-shape  ">
+      <div className="vs-wave-shape ">
         <svg viewBox="0 0 1920 295" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             className="wave-path"
